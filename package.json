@@ -10,13 +10,16 @@
     "start": "tsc && npm run dev"
   },
   "keywords": [
-    "express",
+    "node",
+    "crud",
+    "nodejs",
     "typescript",
+    "express",
+    "mysql",
+    "mysql2",
+    "restapi",
     "rest",
     "api",
-    "restapi",
-    "node",
-    "nodejs",
     "crud"
   ],
   "author": "bezkoder",
@@ -30,6 +33,8 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-typescript-example": "file:",
+    "mysql2": "^3.11.0"
   }
 }

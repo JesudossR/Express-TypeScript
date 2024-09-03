@@ -2,6 +2,9 @@ import express, { Application } from "express";
 import cors, { CorsOptions } from "cors";
 import Routes from "./routes";
 
+{
+  console.log("outindex")
+}
 
 export default class Server {
   constructor(app: Application) {

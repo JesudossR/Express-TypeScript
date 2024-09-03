@@ -1,7 +1,11 @@
 import { Router } from "express";
 import { welcome } from "../controllers/home.controller";
 
+{
+  console.log("homeroute")
+}
 class HomeRoutes {
+
   router = Router();
 
   constructor() {

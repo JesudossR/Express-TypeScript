@@ -1,6 +1,10 @@
 import { Router } from "express";
 import TutorialController from "../controllers/tutorial.controller";
 
+{
+  console.log("tutorialroutes")
+}
+
 class TutorialRoutes {
   router = Router();
   controller = new TutorialController();

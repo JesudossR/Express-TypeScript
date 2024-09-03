@@ -2,6 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const home_controller_1 = require("../controllers/home.controller");
+{
+    console.log("homeroute");
+}
 class HomeRoutes {
     constructor() {
         this.router = (0, express_1.Router)();
